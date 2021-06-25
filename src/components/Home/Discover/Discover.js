@@ -26,7 +26,7 @@ const Discover = () => {
                 <Row className=" justify-content-center align-items-center ">
                     <h2 class="section__title discover__title">Discover the most <br /> attractive places</h2>
                    <Fade top duration={2000} distance="60px">
-                   <div className="swiper__container">
+                   <div className="swiper__container mb-5">
                     <Swiper 
                        // navigation={true}
                         effect={"coverflow"}

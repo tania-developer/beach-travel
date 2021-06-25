@@ -1,0 +1,18 @@
+
+.scrollTop {
+    position: fixed; 
+    bottom: 20px;
+    z-index: 1000;
+    cursor: pointer;
+    color: hsl(190, 12%, 36%);
+    
+    left: 95%;
+    
+  }
+  @media (max-width: 768px){
+    .scrollTop{
+        left: 85%;
+    }
+  }
+  
+  

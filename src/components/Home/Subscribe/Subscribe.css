@@ -1,0 +1,46 @@
+.subscribe__bg {
+    background-color: hsl(190, 64%, 22%);
+    padding: 2.5rem 0;
+  }
+  
+  .subscribe__title, 
+  .subscribe__description {
+    text-align: center;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+  }
+  
+  .subscribe__description {
+    
+    margin-bottom: 2.5rem;
+  }
+  
+  .subscribe__form {
+    width: 50%; 
+    background-color: hsl(190, 24%, 97%);
+    padding: .5rem;
+    display: flex;
+     justify-content: center;
+     margin: 0 auto; 
+     height: 70px;
+  }
+  
+  .subscribe__input {
+    width:100%;
+    border: none;
+    padding-right: .5rem;
+    background-color: hsl(190, 24%, 97%);
+    color: hsl(190, 8%, 75%);
+    
+  }
+  
+  .subscribe__input::placeholder {
+    color: hsl(190, 24%, 35%);
+  }
+  
+  @media (max-width: 768px){
+    .subscribe__form {
+        width: 90%; 
+    }
+  }
+  
